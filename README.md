@@ -1,2 +1,2 @@
 # Calculator
-A calculaor written in C#
+A calculator written in C#
