@@ -14,9 +14,9 @@ namespace Calculator
 			double Ans;
 			string Op = "";
 
-			while (Op != "+" && Op != "-" && Op != "8" && Op != "/")
+			while (Op != "+" && Op != "-" && Op != "*" && Op != "/")
 			{
-				Console.WriteLine("Please choose an operation from the following list: +, -, *, / ");
+				Console.WriteLine("Please choose an operation from the following list: +, -, *, /");
 				Op = Console.ReadLine();
 			}
 
