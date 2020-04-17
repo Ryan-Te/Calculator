@@ -63,6 +63,12 @@ namespace Calculator
 				}else
 					if(Op == "/")
 				{
+					if (num2 == 0)
+					{
+						Console.WriteLine("ERROR! Divide by 0 01, Press any key to close");
+						Console.ReadKey();
+						return;
+					}
 					Ans = num1 / num2;
 				}else
 				{
